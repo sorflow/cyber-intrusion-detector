@@ -256,7 +256,3 @@ This setup gives reviewers a clear story: configurable data science workflow →
 9. **Documentation**: README, configs, and code comments for maintainability
 
 **Missing piece**: I don't have automated retraining or model drift detection, which would complete the lifecycle. I'd add data drift monitoring (using Evidently AI) and scheduled retraining jobs.
-
----
-
-These answers demonstrate not just technical knowledge, but also production thinking, trade-off analysis, and awareness of real-world constraints in ML systems.
