@@ -62,7 +62,7 @@ The dashboard sidebar lets you point at any FastAPI URL, stream CICIDS CSV rows,
 
 - **Containerize** the FastAPI app and dashboard (multi-stage Dockerfile) → deploy to Railway, Render, or AWS Lightsail. Use environment variables for the model path + host.
 - **Expose monitoring**: publish the MLflow tracking server (read-only) or capture screenshots in the README.
-- **Record a short Loom/video** walking through training, API testing (via `/docs`), and the dashboard’s alerting workflow.
+- **Record a short Loom/video** walking through training, API testing (via `/docs`), and the dashboard's alerting workflow.
 - **Extend threat coverage**: add configs trained on other CICIDS attack files; highlight how the registry separates models per attack profile.
 - **Security narrative**: document how to feed NetFlow, PCAP, or SIEM exports to the pipeline and how the model could become part of a SOC automation stack.
 
@@ -86,4 +86,4 @@ The dashboard sidebar lets you point at any FastAPI URL, stream CICIDS CSV rows,
 └── data/                         # CICIDS-2017 CSVs (not tracked in git)
 ```
 
-This setup gives reviewers a clear story: configurable data science workflow → experiment tracking → deployable inference stack → polished dashboard + documentation. 
+This setup gives reviewers a clear story: configurable data science workflow → experiment tracking → deployable inference stack → polished dashboard + documentation.
