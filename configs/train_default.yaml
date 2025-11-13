@@ -1,0 +1,20 @@
+dataset:
+  path: data/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+split:
+  test_size: 0.2
+  stratify: true
+random_state: 42
+model:
+  type: random_forest
+  params:
+    n_estimators: 200
+    max_depth: null
+    class_weight: balanced
+    n_jobs: -1
+output:
+  dir: src/models
+  registry_path: src/models/model_registry.json
+mlflow:
+  tracking_uri: mlruns
+  experiment_name: cicids-rf
+
